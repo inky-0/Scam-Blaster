@@ -654,7 +654,7 @@ def tag_email(input_email: dict) -> dict:
             "filter_confidence": "very_high"
         }
     
-    API_KEY = "YOUR_OPENAI_API_KEY_HERE"
+    API_KEY = ""
     
     client = OpenAI(api_key=API_KEY)
     
